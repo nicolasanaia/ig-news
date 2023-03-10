@@ -1,5 +1,9 @@
+import styles from '../styles/home.module.scss'
+
 export default function Home() {
   return (
-    <h1>Testing</h1>
+    <h1 className={styles.title}>
+      Testing <span>Sass</span>
+    </h1>
   )
 }
